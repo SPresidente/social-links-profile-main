@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.profile {
+  width: 50%;
+  margin: 2rem auto;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 12%);
+}
+
+.profile img {
+  margin-top: 2rem;
+  border-radius: 50%;
+}
+
+.name {
+  color: #fff;
+  margin: 1rem;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 2rem;
+}
+
+.description {
+  color: #fff;
+}
+
+.social {
+  margin: 1rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.social a{
+  text-decoration: none;
+  color: white;
+  margin: 0.7rem auto;
+  width: 50%;
+  line-height: 3rem;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 20%);
+}
+
+.social a:last-child {
+  margin-bottom: 2rem;
+}
+
+.social a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
+
+.attribution {
+  text-align: center;
+}
+
+.attribution a{
+  text-decoration: none;
+  color: #fff;
+}
